@@ -1,0 +1,2 @@
+# lojas
+ para cadastrar lojas
