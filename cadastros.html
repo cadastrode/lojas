@@ -19,120 +19,193 @@
 </nav>
 </header>
 <body>
-    <main>
-        <section>
-          <h1 class="te">Cadastros de Lojistas</h1> <br>
-             
-          <p class="cad">IDENTIFICAÇÂO DO REPRESENTANTE</p> <hr> <br>
-
-          <div class="rep">
-            <strong class="cad">E-mail do Representante</strong>             <strong class="cad" >Nome do Representante</strong><br>
-          <input class="cad"  type="email" name="emr" id="emr"> 
-          
-          <input class="cad" type="text" name="nor" id="nor">
-          </div> <br> <br> <br>
-          
-
-        </section> <br>
-        <section>
-            <p class="cad">DADOS DA EMPRESA</p> <hr> <br>
-
-            <div class="rep">
-                <strong class="cad" >Razão Social*</strong>             <strong class="cad" id="nf">Nome Fantasia*</strong><br>
-              <input class="cad"  type="text" name="rs" id="rs"> 
-              
-              <input class="cad" type="text" name="nf" id="nf">
-              <div class="rep">
-                <strong class="cad">CNPJ*</strong>             <strong class="cad" id="ie">Inscrição Estadual*</strong><br>
-              <input class="cad" type="number" name="cn" id="cn">
-              <input class="cad" type="number" name="ie" id="ie">
-              <div class="rep">
-                <strong class="cad">Ramo de Atividade*</strong>             <strong class="cad" id="ob">Observações</strong><br>
-              <input class="cad"  type="text" name="ra" id="ra"> 
-              <input class="cad" type="text" name="ob" id="ob">
-              <br>
-              <p class="cad">FORMAS DE CONTATO</p><hr><br>
-              <div class="rep">
-                <strong class="cad">TELEFONE*</strong>             <strong class="cad" id="cel">Celular*</strong><br>
-              <input class="cad" type="tel" name="te" id="te">
-              <input class="cad" type="tel" name="ce" id="ce">
-              <div class="rep">
-                <strong class="cad">E-mail do Lojista*</strong> <br>            
-              <input class="cad"  type="email" name="eml" id="eml"> <br><hr><br>
-              
-              <p class="cad">REPRESENTANTE LEGAL</p>
-              <div class="rep">
-                <strong class="cad">Nome*</strong>             <strong class="cad" id="cp">CPF*</strong><br>
-              <input class="cad"  type="text" name="no" id="no"> 
-              
-              <input class="cad" type="number" name="cp" id="cp">
-              <div class="rep">
-                <strong class="cad">RG*</strong>             <strong class="cad" id="pr">Profição*</strong><br>
-              <input class="cad"  type="number" name="rg" id="rg"> 
-              
-              <input class="cad" type="text" name="pr" id="pr"><br><hr><br>
-              <p>REFERENCIAS</p><hr><br>
-              <div class="rep">
-                <strong class="cad">Nome fantasia*</strong>             <strong class="cad" id="te">Telefone</strong><br>
-              <input class="cad"  type="text" name="rnf" id="rnf"> 
-              
-              <input class="cad" type="tel" name="rte" id="rte">
-              <div class="rep">
-                <strong class="cad">Nome fantasia*</strong>             <strong class="cad" id="te1">Telefone</strong><br>
-              <input class="cad"  type="text" name="rnf2" id="rnf2"> 
-              
-              <input class="cad" type="tel" name="rte2" id="rte2"><div class="rep">
-                <strong class="cad">Nome fantasia*</strong>             <strong class="cad" id="te2">Telefone</strong><br>
-              <input class="cad"  type="text" name="rnf3" id="rnf3"> 
-              
-              <input class="cad" type="tel" name="rte3" id="rte3"><div class="rep">
-                <strong class="cad">Nome fantasia*</strong>             <strong class="cad" id="te3">Telefone</strong><br>
-              <input class="cad"  type="text" name="rnf" id="rnf"> 
-              
-              <input class="cad" type="tel" name="rte" id="rte"><br><hr><br>
-              <p class="cad">ENDEREÇO</p>
-              <div class="rep">
-                <strong class="cad">Rua com Número*</strong>             <strong class="cad" id="co">Complemento</strong><br>
-              <input class="cad"  type="text" name="ru" id="ru"> 
-              
-              <input class="cad" type="text" name="co" id="co">
-              <div class="rep">
-                <strong class="cad">Bairro*</strong>             <strong class="cad" id="ce">CEP*</strong><br>
-              <input class="cad"  type="text" name="ba" id="ba"> 
-              
-              <input class="cad" type="number" name="ce" id="ce">
-              <div class="rep">
-                <strong class="cad">Estado*</strong>             <strong class="cad" id="ci">Cidade*</strong><br>
-              <input class="cad"  type="text" name="es" id="es"> 
-              
-              <input class="cad" type="text" name="ci" id="ci">
-              <br>
-              <p class="cad">DADOS BANCÁRIOS</p><hr><br>
-              <div class="rep">
-                <strong class="cad">Banco</strong>             <strong class="cad" id="ag">Agência</strong><br>
-              <input class="cad"  type="number" name="ba" id="ba"> 
-              
-              <input class="cad" type="number" name="ag" id="ag">
-              <div class="rep">
-                <strong class="cad">Tipo de Conta</strong>             <strong class="cad" id="con">Conta</strong><br>
-              <input class="cad"  type="text" name="ti" id="ti"> 
-              
-              <input class="cad" type="number" name="co" id="co">
-              <div class="rep">
-                <strong class="cad">Modelo Negociado</strong>   <br> 
-                <input class="cad" type="text" name="mo" id="mo"><br>         
-              
+   <h1 class="te"> Cadastro de Lojistas </h1>
+    <main id="cad">
+     <h4>IDENTIFICAÇÂO DO REPRESENTANTE</h4><hr>
+     <table id="cad">
+         <tr>
+             <td class="cad" id="lt">Nome do Representante</td>
+             <td class="cad" id="lt">E-mail do Representante</td>
+         </tr>
+         <tr>
+             <td class="cad"><input class="tes" type="text" name="nr" id="nr"></td>
+             <td class="cad"><input class="tes" type="email" name="er" id="er"></td>
+         </tr>
+     </table>
+     <h4>DADOS DA EMPRESA</h4><hr>
+     <table id="cad">
+         <tr>
+             <td class="cad" id="lt">Razão Social*</td>
+             <td class="cad" id="lt">Nome Fantasia*</td>
+         </tr>
+         <tr>
+             <td class="cad"><input class="tes" type="text" name="nr" id="nr"></td>
+             <td class="cad"><input class="tes" type="email" name="er" id="er"></td>
+         </tr>
+         <tr>
+             <td class="cad" id="lt">CNPJ*</td>
+             <td class="cad" id="lt">Inscrição Estadual*</td>
+         </tr>
+         <tr>
+             <td class="cad"><input class="tes" type="number" name="nr" id="nr"></td>
+             <td class="cad"><input class="tes" type="number" name="er" id="er"></td>
+         </tr>
+         <tr>
+             <td class="cad" id="lt">Ramo de Atividade*</td>
+             <td class="cad" id="lt">Observações</td>
+         </tr>
+         <tr>
+             <td class="cad"><input class="tes" type="text" name="nr" id="nr"></td>
+             <td class="cad"><input class="tes" type="text" name="er" id="er"></td>
+         </tr>
+     </table>
+     <h4>FORMAS DE CONTATO</h4><hr>
+     <table id="cad">
+         <tr>
+             <td class="cad" id="lt">TELEFONE*</td>
+             <td class="cad" id="lt">Celular*</td>
+         </tr>
+         <tr>
+             <td class="cad"><input class="tes" type="tel" name="nr" id="nr"></td>
+             <td class="cad"><input class="tes" type="tel" name="er" id="er"></td>
+         </tr>
+         <tr>
+             <td class="cad" id="lt">Celular*</td>
+             <td class="cad" id="lt">E-mail do Lojista</td>
+         </tr>
+         <tr>
+             <td class="cad"><input class="tes" type="tel" name="nr" id="nr"></td>
+             <td class="cad"><input class="tes" type="email" name="er" id="er"></td>
+         </tr>
+     </table>
+ </table>
+ <h4>REPRESENTANTE LEGAL</h4><hr>
+ <table id="cad">
+     <tr>
+         <td class="cad" id="lt">Nome*</td>
+         <td class="cad" id="lt">CPF*</td>
+     </tr>
+     <tr>
+         <td class="cad"><input class="tes" type="text" name="nr" id="nr"></td>
+         <td class="cad"><input class="tes" type="number" name="er" id="er"></td>
+     </tr>
+     <tr>
+         <td class="cad" id="lt">RG*</td>
+         <td class="cad" id="lt">Profição*</td>
+     </tr>
+     <tr>
+         <td class="cad"><input class="tes" type="number" name="nr" id="nr"></td>
+         <td class="cad"><input class="tes" type="text" name="er" id="er"></td>
+     </tr>
+ </table>
+ <h4>REFERENCIAS</h4><hr>
+ <table id="cad">
+     <tr>
+         <td class="cad" id="lt">Nome fantasia*</td>
+         <td class="cad" id="lt">Telefone*</td>
+     </tr>
+     <tr>
+         <td class="cad"><input class="tes" type="text" name="nr" id="nr"></td>
+         <td class="cad"><input class="tes" type="number" name="er" id="er"></td>
+     </tr>
+     <tr>
+         <td class="cad" id="lt">Nome fantasia*</td>
+         <td class="cad" id="lt">Telefone*</td>
+     </tr>
+     <tr>
+         <td class="cad"><input class="tes" type="text" name="nr" id="nr"></td>
+         <td class="cad"><input class="tes" type="number" name="er" id="er"></td>
+     </tr>
+     <tr>
+         <td class="cad" id="lt">Nome fantasia*</td>
+         <td class="cad" id="lt">Telefone</td>
+     </tr>
+     <tr>
+         <td class="cad"><input class="tes" type="text" name="nr" id="nr"></td>
+         <td class="cad"><input class="tes" type="number" name="er" id="er"></td>
+     </tr>
+ </table>
+ </table>
+ <h4>ENDEREÇO</h4><hr>
+ <table id="cad">
+     <tr>
+         <td class="cad" id="lt">Rua com Número*td>
+         <td class="cad" id="lt">Complemento</td>
+     </tr>
+     <tr>
+         <td class="cad"><input class="tes" type="text" name="nr" id="nr"></td>
+         <td class="cad"><input class="tes" type="text" name="er" id="er"></td>
+     </tr>
+     <tr>
+         <td class="cad" id="lt">Bairro*</td>
+         <td class="cad" id="lt">CEP*</td>
+     </tr>
+     <tr>
+         <td class="cad"><input class="tes" type="text" name="nr" id="nr"></td>
+         <td class="cad"><input class="tes" type="number" name="er" id="er"></td>
+     </tr>
+     <tr>
+         <td class="cad" id="lt">Estado*</td>
+         <td class="cad" id="lt">Cidade*</td>
+     </tr>
+     <tr>
+         <td class="cad"><input class="tes" type="text" name="nr" id="nr"></td>
+         <td class="cad"><input class="tes" type="text" name="er" id="er"></td>
+     </tr>
+ </table>
+ <h4>DADOS BANCÁRIOS</h4><hr>
+ <table id="cad">
+     <tr>
+         <td class="cad" id="lt">Banco*</td>
+         <td class="cad" id="lt">Agência*</td>
+     </tr>
+     <tr>
+         <td class="cad"><input class="tes" type="text" name="nr" id="nr"></td>
+         <td class="cad"><input class="tes" type="number" name="er" id="er"></td>
+     </tr>
+     <tr>
+         <td class="cad" id="lt">Tipo de Conta*</td>
+         <td class="cad" id="lt">Conta*</td>
+     </tr>
+     <tr>
+         <td class="cad"><input class="tes" type="text" name="nr" id="nr"></td>
+         <td class="cad"><input class="tes" type="number" name="er" id="er"></td>
+     </tr>
+     <tr>
+         <td class="cad" id="lt">Modelo Negociado*</td>
+         <td class="cad" id="lt">É Loja de Rede?*</td>
+     </tr>
+     <tr>
+         <td class="cad"><input class="tes" type="text" name="nr" id="nr"></td>
+         <td class="cad"><input class="tes" type="text" name="er" id="er"></td>
+     </tr>
+ </table>
+ <h4>ARQUIVOS</h4><hr>
+ <table id="cad">
+     <tr>
+         <td class="cad" id="lt">Foto da Fachada*</td>
+         <td class="cad" id="lt">Foto do Interior*</td>
+     </tr>
+     <tr>
+     <td class="cad"> <input class="bot" type="file" name="up" id="up"></td>
+     <td class="cad"> <input class="bot" type="file" name="up1" id="up1">
+      <div class="rep"></td>
+     </tr>
+     <tr>
+         <td class="cad" id="lt">Comprovante Bancário*</td>
+         <td class="cad" id="lt">Contrato social*</td>
+     </tr>
+     <tr>
+      <td class="cad"> <input class="bot" type="file" name="up" id="up"></td>
+      <td class="cad"> <input class="bot" type="file" name="up1" id="up1">
+       <div class="rep"></td>
+      </tr>
+     
+     
+ </table>
+ 
             
-            
-                <div class="rep">
-                    <strong class="cad" id="ff">Foto da Fachada</strong>             <strong class="cad" id="fi">Foto do Interior</strong><br>
-                    <input class="bot" type="file" name="up" id="up">
-                    <input class="bot" type="file" name="up1" id="up1">
-                    <div class="rep">
-                        <strong class="cad" id="cb">Comprovante Bancário</strong>             <strong class="cad" id="cs">Contrato social</strong><br>
-                        <input class="bot" type="file" name="up" id="up">
-                        <input class="bot" type="file" name="up1" id="up1">
-              
+ 
               <input class="arq" type="button" value="ENVIAR">
         </section>
     </main>

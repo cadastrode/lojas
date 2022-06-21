@@ -53,6 +53,10 @@ main{
     margin: auto;    
     box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.336);
 }
+main#cad{
+    border-radius: 10px;
+    background-color: #d4e4f5;
+}
 div.ima{
     background-size: 100% 100%;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.247);
@@ -108,14 +112,11 @@ input.cad{
     box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.39);
     height: 30px;
     margin: 10px;
-    font-size: 2.4em;
+    font-size: 2.1em;
     font-family:'Times New Roman', Times, serif;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.288);
     border-radius: 20px;
     border: solid 1px rgba(73, 69, 69, 0.527);
-    
-    
-
 }
 input.arq{
     background-color: #2998d4;
@@ -132,6 +133,7 @@ input.arq{
     margin-right: 390px;
     margin-bottom: 100px;
     box-shadow: 6px 6px 9px rgba(0, 0, 0, 0.308);}
+    
 input.bot{
         background-color: #2998d4;
         color: aliceblue;
@@ -140,9 +142,16 @@ input.bot{
         text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.288);
         padding: 10px;
         margin: 10px;
-        margin-left: 50px;
+       
         border-radius: 10px;
         box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.308);}
+input.tes{
+            box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.39);
+            font-size: 2.1em;
+            font-family:'Times New Roman', Times, serif;
+            border-radius: 10px;
+            border: solid .5px rgba(73, 69, 69, 0.527);
+        }
 
         
 h1.te{
@@ -178,11 +187,20 @@ h3{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     font-size: 1.3em;
-    color: #0511F2;
-    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.219) ;
+    color: #1f588d;
+   
     padding: 20px;
     padding-top: 0px;
 }
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 1.3em;
+    color:#03407c; ;
+    padding: 20px;
+    padding-top: 10px;
+}
+
 p#te{
     margin-top: 30px;
     padding: 0px 100px  ;
@@ -192,76 +210,30 @@ p.ta{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
-strong.cad{
-    color: #01274d;
-    padding: 10px;
-    font-size: 1em;
-    text-align: justify;
-    margin-top: 20px;
-    margin-left: 10px;
-    margin-right: 300px
-}
-strong#nf{
-    margin-left: 70px;
-}
-strong#ie{
-    margin-left: 120px;
-}
-strong#ob{
-    margin-left: 30px;
-}
-strong#cel{
-    margin-left: 70px;
-}
-strong#cp{
-    margin-left: 110px;
-}
-strong#pr{
-    margin-left: 130px;
-}
-strong#te{
-    margin-left: 70px;
-}
-strong#te1{
-    margin-left: 70px;
-}
-strong#te2{
-    margin-left: 70px;
-}
-strong#te3{
-    margin-left: 70px;
-}
-strong#ff{
-    margin-left: 90px;
-}
-strong#cb{
-    margin-left: 70px;
-}
-strong#cs{
-    margin-left: 10px;
-}
-strong#fi{
-    margin-left: 10px;
-}
-strong#co{
-    margin-left: 30px;
-}
-strong#ce{
-    margin-left: 120px;
-}
-strong#ci{
-    margin-left: 120px;
-}
-strong#ag{
-    margin-left: 120px;
-}
-strong#con{
-    margin-left: 70px;
-}
 table{
     border-collapse:collapse;
     text-indent: initial;
     border-spacing: 0px;
+}
+td.cad{
+    font: bold;
+    width: 500px;
+    color: #022c57;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 10px;
+    padding-top: 0px;
+    text-align: center;
+    border: 0px;
+}
+td#lt{
+    font: bold;
+    width: 500px;
+    color: #022c57;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 0px;
+    padding-top: 10px;
+    text-align: center;
+    border: 0px;
 }
 th{
     font-size: 18px;
@@ -273,13 +245,10 @@ th{
     box-shadow: 4px 2px 4px rgba(0, 0, 0, 0.438);
 }
 td{
-    color: #3c3f42;;
+    color: #3c3f42;
     font-family: Arial, Helvetica, sans-serif;
     border: solid .5px rgba(8, 90, 138, 0.356) ;
-    padding: 10px;
-   
-    
-    
+    padding: 10px;   
 }
 tr{
     margin: auto;
