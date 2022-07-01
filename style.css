@@ -78,7 +78,7 @@ nav > a{
 }
 nav > a:hover{
     background-color: #1e74a3e5;
-    color: rgb(255, 252, 58);
+    color: #fffc3a;
     text-decoration: none;
     padding-right: 20px;
     font-size: 1.5em;
@@ -135,6 +135,17 @@ div#arq{
     width: 600px;
     height: 350px;
     background-size: 100% 100%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.247);
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+    border-radius: 15px;
+}
+#arq:hover{
+    width: 700px;
+    height: 450px;
+    background-size: 100% ;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.247);
     margin-bottom: 50px;
     margin-top: 50px;
@@ -202,6 +213,14 @@ input.arq{
     box-shadow: 6px 6px 9px rgba(0, 0, 0, 0.308);
 }
 
+#baix:hover{
+    background-color: #054d74ea;
+    text-shadow: 4px 2px 4px rgb(0 0 0);
+    color:#ffda06;
+    padding: 15px;
+    font-size: 1.3em;
+    box-shadow: 5px 5px 9px #3c3f424f;
+}
     
 input.bot{
         background-color: #2998d4;
