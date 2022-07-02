@@ -1,5 +1,70 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2? family= Gentium+Book+Plus:ital,wght@0,400;1,400;1,700 & family= Playfair+Display:ital,wght@0,400; 1.500 & display=trocar');
+@media only screen and (max-width: 600px) {
+    #nav_prin{
+        display: none;
+      }
+      h1{
+        font-size: 1.2em;
+      }
+      h1.te{
+        font-size: 1.2em;
+      }
+      h1:hover{
+        font-size: 1.2em;
+      }
+      h2{
+        font-size: 1.0em;
+}
+}
+@media only screen and (min-width: 600px) {
+    #nav_prin{
+        display: none;
+      }
+      h1{
+        font-size: 1.6em;
+      }
+      h1.te{
+        font-size: 1.6em;
+      }
+      h1:hover{
+        font-size: 1.6em;
+      }
+      h2{
+        font-size: 1.1em;
+}
+}
+@media only screen and (min-width: 768px) {
+    #nav_prin{
+        display: none;
+      }
+      h1{
+        font-size: 2em;
+      }
+      h1.te{
+        font-size: 2em;
+      }
+      h1:hover{
+        font-size: 2em;
+      }
+      h2{
+        font-size: 1.4em;
+}
+
+}
+@media only screen and (min-width: 992px) {
+      #nav_prin{
+        display: none;
+      }
+}
+@media only screen and (min-width: 1130px) {
+    #nav_prin{
+        display: flex;
+      }
+    #resp{
+      display: none;
+    }
+}
 *{
     box-sizing: border-box;
     margin: 0px;
@@ -34,17 +99,19 @@ header{
     display: flex;
     font-size: 1.2em;
     color: rgb(250, 248, 119);
-    padding: 8px;
-   
-   
+    padding: 8px;  
 }
 #log > img{
+    display: flex;
     padding: 20px;
-    width: 100px;
-   margin-left: 200px;
+    width: 100px; 
+   margin-left: 50px;
     padding-bottom: 0px;
     padding-top: 10px;
     padding-right: 0px;
+}
+#log > img:hover{
+    width: 110px;
 }
 #lo{
     font-family:'Gentium Book Plus', serifa;
@@ -57,14 +124,13 @@ header{
     text-shadow: 2px 1px 2px rgb(0, 0, 0) ;
 }
 nav{
+    display: flex;
     background-color: #02527D;
     font-family: 'Playfair Display', serifa;
     color: rgb(252, 255, 240);
     text-decoration: none;
     margin-top: 3px;
-    padding: 5px;
-    
-    
+    padding: 5px;   
 }
 nav > a{
     font-family:'Playfair Display', serifa;
@@ -109,9 +175,7 @@ main#cad{
     display: flex;
     width: 100%;
     max-height: 520px;
-    overflow: scroll;
-    
-    
+    overflow: scroll;   
     
 }
 .princ{
@@ -128,12 +192,19 @@ main#cad{
     width: 100%;
     height: 100%;
     border-radius: 15px;
-    box-shadow: 3px 6px 3px rgba(0, 0, 0, 0.404);
-   
-    
+    box-shadow: 3px 6px 3px rgba(0, 0, 0, 0.404);   
+}
+img{
+    display: flex;
+    border-radius: 15px;
+    width: 100%;
+    margin: 5px;
+}
+img:hover{
+    border-radius: 15px;
+     width: 110%;
 }
 .segunda{
-    display: flex;
     margin-left: 15px;
     margin-top: 12px;
     flex-direction: column;
@@ -143,8 +214,7 @@ main#cad{
 .seg > a img{
     border-radius: 15px;
     box-shadow: 3px 6px 3px rgba(0, 0, 0, 0.404);
-    width: 100%;
-   
+    width: 100%;   
 }
 .seg > a img:hover{
     background-color: #2324259f;
@@ -153,114 +223,89 @@ main#cad{
     width: 110%;
    
 }
-div.ima{
-    background-size: 100% 100%;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.247);
-    padding-top: 30px;
-    padding-left: 0px;
-    padding-bottom: 10px;
-    padding-right: 0px;
-    margin-bottom: 10px;
-    margin: 10px;
+.ima{
+    display: flex;
+    width: 92%;
+    box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.247);
     border-radius: 15px;
+    margin: 20px;
 }
-div#gr{
-    background-image: url('midias/grupo.jpg');
-    width: 980px;
-    height: 400px;
+.ima:hover{
+    width: 88%;
 }
-div#g1{
-    background-image: url('midias/grupo1.jpg');
-    width: 980px;
-    height: 500px;
+.repre{
+    display: flex;
+    margin-left: 24%;
+    width: 50%;
+    box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.247);
+    
 }
-div#g2{
-    background-image: url('midias/rede.jpg');
-    width: 980px;
-    height: 500px;
+.repre:hover{
+    width: 51%;
 }
-div#arq{
-    background-image: url('midias/representante-comercial.jpg');
-    width: 600px;
-    height: 350px;
-    background-size: 100% 100%;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.247);
-    margin-bottom: 50px;
-    margin-top: 50px;
-    margin-left: 150px;
-    margin-right: 150px;
-    border-radius: 15px;
+#re{
+    margin: 20px;
+    margin-left: 40%;
+    
 }
-#arq:hover{
-    width: 700px;
-    height: 450px;
-    background-size: 100% ;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.247);
-    margin-bottom: 50px;
-    margin-top: 50px;
-    margin-left: 150px;
-    margin-right: 150px;
-    border-radius: 15px;
+#ifr{
+    display: flex;
 }
-div.rep{
-    padding: 10px;
-    display: inline-block;
-}
-#env {
-    font-size: large;
-    font-family:  'Playfair Display', serifa;
-    text-align: center;
-    margin-left: 33%;
-    background-color: #02527dea;
-    display: inline-block;
-    font-size: 2.5em;
-    text-shadow: 4px 2px 4px rgb(0 0 0);
+#cada{
     text-decoration: none;
-    color:#F2E205;
-    padding: 12px;
-    border-radius: 27px;
-    box-shadow: 5px 5px 9px #3c3f424f;
-    margin-bottom: 35px;
-    margin-top: 0px;
+  
+    margin-left: 40%;
+    
 }
-#env:hover{
-    background-color: #0585caea;
-    text-shadow: 4px 2px 4px rgb(0 0 0);
-    color:#ffda06;
-    padding: 20px;
-    box-shadow: 5px 5px 9px #3c3f424f;
-}
-
 label{
-    padding-left: 20px;
+    text-align: center;
+    font-size: .9em;
+}
+.esq{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    float: left;
+    padding: 10px;
+   
+      
+}
+.dr{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.rad{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1px;
+    padding: 0px;
 }
 
-input.arq{
-    background-color: #2998d4;
+.arq{
+    background-color: #0f4c6d;
     color: aliceblue;
-    font-size: 1em;
+    font-size: 1.5em;
     font-family:  'Playfair Display', serifa;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.288);
-    width: 150px;
-    height: 60px;
-    border-radius: 25px;
+    width: 250px;
+    height: 70px;
+    border-radius: 12px;
     border: 2px rgba(0, 0, 0, 0.212);
-    margin-top: 30px;
-    margin-left: 390px;
-    margin-right: 390px;
+    margin-top: 20px;
+    margin-left:  33%;
     margin-bottom: 100px;
     box-shadow: 6px 6px 9px rgba(0, 0, 0, 0.308);
+    padding:  10px;
 }
-
-#baix:hover{
-    background-color: #054d74ea;
-    text-shadow: 4px 2px 4px rgb(0 0 0);
+.arq:hover{
+    background-color: #022c42;
     color:#ffda06;
-    padding: 15px;
-    font-size: 1.3em;
+    text-shadow: 4px 2px 4px rgb(0 0 0);
+    padding: 20px;
+    font-size: 1.8em;
     box-shadow: 5px 5px 9px #3c3f424f;
-}
-    
+}    
 input.bot{
         background-color: #2998d4;
         color: aliceblue;
@@ -274,12 +319,10 @@ input.bot{
         box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.308);}
 input.tes{
             box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.39);
-            width: 455px;
             font-size: 1em;
             font-family:  'Playfair Display', serifa;
             border-radius: 6px;
-            border: solid .5px rgba(73, 69, 69, 0.527);
-            display: inline-block;
+            border: solid .3px rgba(73, 69, 69, 0.527);
             padding: 5px;
         }
 textarea{
@@ -345,30 +388,32 @@ h4{
     color:#03407c; ;
     padding: 20px;
     padding-top: 10px;
+    margin-top: 30px;
 }
 
 p#te{
     margin-top: 30px;
-    padding: 0px 100px  ;
+    padding: 20px ;
     font-family:  'Playfair Display', serifa;
 }
 p.ta{
     text-align: center;
     font-family:  'Playfair Display', serifa;
+    padding: 20px;
 }
 
 p{
     font-family:  'Playfair Display', serifa;
     color: #3c3f42;
     text-align: justify;
-    padding: 10px;
+    padding: 20px;
     margin: auto;
     font-size: 1.3em;
 }
 p.cad{
     font-family:  'Playfair Display', serifa;
     color: #3c3f42;
-    padding: 10px;
+    padding: 20px;
     margin: auto;
     font-size: 1.3em;
     text-align: center;
@@ -378,6 +423,7 @@ p#pf{
     font-family:  'Playfair Display', serifa;
     color: #DDDDDF;
     text-align: center;
+    padding: 20px;
 }
 footer{
     background-color: #02527D;
@@ -387,18 +433,5 @@ footer > p{
     color: aliceblue;
     text-align: center;
     text-shadow: 4px 2px 4px rgb(0, 0, 0) ;
-    margin: 0px;
-}
-.esq{
-    width: 50%;
-    float: left;
-    padding: 10px;
-      
-}
-.dr{
-    padding: 10px;
-}
-.rad{
-    margin-left: 1px;
-    padding: 0px;
+    padding: 20px;
 }
