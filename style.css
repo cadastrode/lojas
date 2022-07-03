@@ -556,10 +556,12 @@ p.ta{
 p{
     font-family:  'Playfair Display', serifa;
     color: #3c3f42;
-    text-align: justify;
+    text-align: center;
     padding: 20px;
     margin: auto;
     font-size: 1.1em;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 p.cad{
     font-family:  'Playfair Display', serifa;
