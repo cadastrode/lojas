@@ -263,7 +263,7 @@ ul{
     padding: 2px;
     list-style-type: none;
 }
-.menu{
+.menu{font-family:'Gentium Book Plus', serifa;
     display: none;
     font-size: 1.3em;
     
@@ -278,6 +278,7 @@ li a{
     margin-left: 1px;
 }
 #men{
+    font-family:'Gentium Book Plus', serifa;
     text-decoration: underline;
     float: left;
     color: white;
@@ -441,7 +442,7 @@ label{
     background-color: #0f4c6d;
     color: aliceblue;
     font-size: 1.5em;
-    font-family:  'Playfair Display', serifa;
+    font-family:'Gentium Book Plus', serifa;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.288);
     width: 250px;
     height: 70px;
