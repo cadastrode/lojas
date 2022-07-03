@@ -253,10 +253,62 @@ nav > a:hover{
     border-radius: 8px;
    
 }
-nav#resp{
+nav#roda{
     font-family: 'Playfair Display', serifa;
     background-color: #02527D;
     margin-top: 0px;
+}
+ul{
+    margin: 3px;
+    padding: 2px;
+    list-style-type: none;
+}
+.menu{
+    display: none;
+    font-size: 1.3em;
+    
+}
+ul:hover .menu{
+    display: block;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+    margin-left: 1px;
+}
+#men{
+    text-decoration: underline;
+    float: left;
+    color: white;
+    font-size: 1.1em;
+    text-align: center;
+    text-shadow:1px 2px #3c3f4262;
+    padding: 5px;
+}
+.menu:hover{
+    color:#ffda06;
+    text-shadow: 4px 2px 4px rgb(0 0 0);
+    padding: 8px;
+    font-size: 1.2em;
+   
+}
+#men:hover{
+    display: block;
+    color:#ffda06;
+    text-shadow: 4px 2px 4px rgb(0 0 0);
+    padding: 8px;
+    font-size: 1.2em;
+    
+}
+li:hover a{
+    text-decoration: underline;
+    display: block;
+    color:#ffda06;
+    text-shadow: 4px 2px 4px rgb(0 0 0);
+    padding: 8px;
+    font-size: 1.2em;
+  
 }
 
 main{
